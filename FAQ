@@ -1,0 +1,53 @@
+# 此为部署或使用此扫描的问题记录文档
+
+
+--------------------------------------------------------------------------------------------
+masscan(git clone https://github.com/robertdavidgraham/masscan)：
+
+1、pcap: failed to load libpcap shared library  HINT: you must install libpcap or WinPcap
+	平台: CentOS Linux release 7.9.2009 (Core)
+	内核: 3.10.0-1160.59.1.el7.x86_64
+	
+解决方法:
+yum install -y libpcap*
+
+rm -rf masscan				#删除已经下载的masscan
+git clone https://github.com/robertdavidgraham/masscan			#下载masscan
+cd masscan					#切到masscan目录中
+make 						#编译
+make install				#安装
+
+
+2、ModuleNotFoundError: No module named 'masscan'
+	平台: CentOS Linux release 7.9.2009 (Core)
+	内核: 3.10.0-1160.59.1.el7.x86_64
+	
+解决方法:
+pip3 install python-masscan
+
+
+--------------------------------------------------------------------------------------------
+nmap 
+
+1、ModuleNotFoundError: No module named 'nmap'
+	平台: CentOS Linux release 7.9.2009 (Core)
+	内核: 3.10.0-1160.59.1.el7.x86_64
+	
+解决方法:
+pip3 install python-nmap
+
+
+--------------------------------------------------------------------------------------------
+celery
+
+
+
+--------------------------------------------------------------------------------------------
+python3 
+
+1、ModuleNotFoundError: No module named 'pymysql'
+	平台: CentOS Linux release 7.9.2009 (Core)
+	内核: 3.10.0-1160.59.1.el7.x86_64
+	
+解决方法:
+pip3 install pymysql
