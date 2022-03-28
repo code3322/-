@@ -13,7 +13,7 @@
 ### 架构
 
 &emsp;&emsp;简单的架构图:
-![](/PortScan/images/arch.jpg)
+![](./images/arch.jpg)
 
 
 ### 开发环境(仅供参考)
