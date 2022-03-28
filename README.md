@@ -4,6 +4,7 @@
 
 &emsp;&emsp;项目使用python3 + celery + redis + mysql来实现，具体看部署文档。
 
+&emsp;
 ### 前提:
 
 &emsp;&emsp;此为分布式端口秒级扫描系统部署文档，秒级扫描系统就是为了以应对海量服务器对外的暴露面，让各位安全大神从此过上没有女朋友的生活！
@@ -12,7 +13,7 @@
 ### 架构
 
 &emsp;&emsp;简单的架构图:
-![](/images/port_scan_image/arch.jpg)
+![](/images/arch.jpg)
 
 
 ### 开发环境(仅供参考)
